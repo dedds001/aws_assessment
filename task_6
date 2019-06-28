@@ -1,1 +1,4 @@
+##1.	Write an SQL query on the database created on step 5 : Select all customer names, and product names from the database in single query.
+
+
 select c.customername, p.productname FROM customers c LEFT JOIN orders o ON c.customerNumber = o.customerNumber LEFT JOIN orderdetails od ON o.orderNumber = od.orderNumber JOIN products p ON od.productcode = p.productcode; 
