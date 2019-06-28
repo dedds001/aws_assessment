@@ -1,1 +1,4 @@
+ ##1.	On ec2 instance Count number of lines of the mysqldump file ( downloaded from s3)
+
+ 
  cat mysqlsampledatabase.sql.txt | wc -l
