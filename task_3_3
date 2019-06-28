@@ -3,6 +3,23 @@
 ##3.	Write the command that you used for step #2
 
 
-
+##Option One
 wget https://deborah-final.s3.us-east-2.amazonaws.com/mysqlsampledatabase.sql.txt
 
+
+
+##Option Two
+##CURL link 
+curl -X GET \
+  https://aws-collabera.s3.amazonaws.com/mysqlsampledatabase.sql.txt \
+  -H 'Accept: */*' \
+  -H 'Authorization: AWS4-HMAC-SHA256 Credential=AKIA4SOMN2PT4TJT75N5/20190628/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=da07fd418d76721d13884eb07f9e1867c8e5d982d2a3faa37fc25e8ac9676db7' \
+  -H 'Cache-Control: no-cache' \
+  -H 'Connection: keep-alive' \
+  -H 'Host: aws-collabera.s3.amazonaws.com' \
+  -H 'Postman-Token: 3b43449b-96a9-4b37-bd8c-1ed8c87cde18,f7039fc9-d7c9-4bb3-b593-3efe3439d0e8' \
+  -H 'User-Agent: PostmanRuntime/7.15.0' \
+  -H 'X-Amz-Content-Sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855' \
+  -H 'X-Amz-Date: 20190628T200629Z' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'cache-control: no-cache'
