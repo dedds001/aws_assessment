@@ -1,0 +1,1 @@
+grep -o 'NULL' mysqlsampledatabase.sql.txt | wc -l

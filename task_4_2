@@ -1,0 +1,2 @@
+[ec2-user@ip-172-31-37-32 ~]$ sed 's/mysql/yoursql/g' mysqlsampledatabase.sql.txt > yoursql
+

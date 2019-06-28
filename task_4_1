@@ -1,0 +1,1 @@
+ cat mysqlsampledatabase.sql.txt | wc -l
