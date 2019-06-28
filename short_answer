@@ -1,0 +1,13 @@
+1.	Highlight few differences between Block storage ( EBS ) & Object storage (s3)
+
+EBS  is a disk drive, configured with an operating system, and users can make a snapshot to provide continuity without loss of data.  EBS are purchased in blocks, and can be beefed up with additional ram, etc as needed.
+Object Storage (S3) is like folder for holding data, is easily scalable by adding buckets.  With S3, you only pay for what you need.  S3 is for data that needs to be available for use.  Glacier is for data that must be retained (perhaps for regulatory purposes) but does not need real-time access. It is much cheaper, but less accessible.  
+2.	Highlight few differences between NoSQL & SQL databases
+
+SQL databases are normalized, acid compliant, structured datasets.  All data in the database must be related, and is organized into table-structures.
+NoSQL is unstructured, non acid compliant, and is organized in key-value arrangements, like a data dictionary.  It was developed with the idea that data storage is now cheap.
+3.	Highlight few differences between ssh & http protocol
+
+ssh has a built in protocol to use username and password, allowing the server to authenticate users.  AWS uses ssh and key pairs (public key/private key) to authenticate users
+http is unencrypted, accessible by any ip address, and therefore less secure, most websites now use https
+
