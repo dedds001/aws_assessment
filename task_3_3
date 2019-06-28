@@ -1,2 +1,8 @@
+##1.	Upload the file https://github.com/becloudready/rds-tutorials/blob/master/mysql/mysqlsampledatabase.sql into your s3 bucket
+##2.	Download the aforesaid uploaded ( mysqlsampledatabase.sql ) into your ec2 instance ( cmdline )
+##3.	Write the command that you used for step #2
+
+
+
 wget https://deborah-final.s3.us-east-2.amazonaws.com/mysqlsampledatabase.sql.txt
 
